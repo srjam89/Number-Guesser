@@ -7,7 +7,7 @@ const generateTarget = number => {
 };
 
 // step 4 //
-let compareGuess = (humanGuess, computerGuess, secretTargetNumber) => {
+let compareGuesses = (humanGuess, computerGuess, secretTargetNumber) => {
   if (Math.abs(humanGuess - secretTargetNumber) < Math.abs(computerGuess - secretTargetNumber)) {
       return true;
   } else if (Math.abs(computerGuess - secretTargetNumber) < Math.abs(humanGuess - secretTargetNumber)) {
