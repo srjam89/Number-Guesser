@@ -29,6 +29,8 @@ let updateScore = winner => {
     }
 };
 
+// step 6//
+
 function advanceRound() {
     currentRoundNumber +=1;
 };
